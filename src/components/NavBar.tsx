@@ -4,7 +4,7 @@ import links from "../data/links";
 
 const NavBar = () => {
   return (
-    <AppBar position="sticky" elevation={1} sx={{ flexGrow: 1, minHeight: 95 }}>
+    <AppBar position="sticky" elevation={1} sx={{ flexGrow: 1 }}>
       <Toolbar>
         {/* Mobile logo */}
         <Box
