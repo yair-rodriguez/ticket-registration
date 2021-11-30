@@ -15,10 +15,6 @@ const Home: NextPage = () => {
           content="Registra tus tickets de compra de Ancona Autopartes"
         />
         <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-        />
       </Head>
       <NavBar />
       <Grid container>
@@ -43,7 +39,7 @@ const Home: NextPage = () => {
               Verifica tus datos, ya que de resultar ganador te contactaremos
               por alguno de esos medios.
             </li>
-            <li> Da clic en el botón "Completar registro".</li>
+            <li> Da clic en el botón &quot;Completar registro&quot;.</li>
             <li>
               ¡Listo!, Tu registro habrá sido capturado y ya estarás
               participando.
