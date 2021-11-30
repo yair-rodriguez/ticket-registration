@@ -1,6 +1,5 @@
 import { AppBar, Toolbar, Box, Tooltip, Link, IconButton } from "@mui/material";
 import { Twitter, Facebook, Instagram } from "@mui/icons-material";
-import Image from "next/image";
 import links from "../data/links";
 
 const NavBar = () => {
@@ -15,7 +14,7 @@ const NavBar = () => {
             display: { xs: "block", md: "none" },
           }}
         >
-          <Image
+          <img
             src="img/192.png"
             alt="Ancona Autopartes"
             width={48}
@@ -30,7 +29,7 @@ const NavBar = () => {
             display: { xs: "none", md: "block" },
           }}
         >
-          <Image
+          <img
             src="https://ancona.s3.us-east-2.amazonaws.com/logo/logo-ancona.webp"
             alt="Ancona Autopartes"
             width={"auto"}
