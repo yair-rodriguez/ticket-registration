@@ -32,8 +32,8 @@ const NavBar = () => {
           <img
             src="https://ancona.s3.us-east-2.amazonaws.com/logo/logo-ancona.webp"
             alt="Ancona Autopartes"
-            width={"auto"}
-            height={48}
+            width={210}
+            height={75}
           />
         </Box>
         <Box className="social-links">
