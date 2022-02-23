@@ -58,6 +58,14 @@ const NavBar = () => {
               </IconButton>
             </Link>
           </Tooltip>
+          <Tooltip title="Síguenos en Tiktok">
+            <Link href={links.tiktok} target="_blank" rel="noopener">
+              <IconButton>
+                {/* TODO: Agregar ícono de TikTok */}
+                <i className="fab fa-tiktok" />
+              </IconButton>
+            </Link>
+          </Tooltip>
         </Box>
       </Toolbar>
     </AppBar>
